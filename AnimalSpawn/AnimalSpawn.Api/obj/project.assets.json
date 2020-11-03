@@ -1542,6 +1542,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "AnimalSpawn.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AnimalSpawn.Domain": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AnimalSpawn.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnimalSpawn.Application.dll": {}
+        }
+      },
       "AnimalSpawn.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5853,6 +5867,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "AnimalSpawn.Application/1.0.0": {
+      "type": "project",
+      "path": "../AnimalSpawn.Application/AnimalSpawn.Application.csproj",
+      "msbuildProject": "../AnimalSpawn.Application/AnimalSpawn.Application.csproj"
+    },
     "AnimalSpawn.Domain/1.0.0": {
       "type": "project",
       "path": "../AnimalSpawn.Domain/AnimalSpawn.Domain.csproj",
@@ -5866,6 +5885,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AnimalSpawn.Application >= 1.0.0",
       "AnimalSpawn.Domain >= 1.0.0",
       "AnimalSpawn.Infraestructure >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
@@ -5879,11 +5899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
+      "projectUniqueName": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
       "projectName": "AnimalSpawn.Api",
-      "projectPath": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
+      "projectPath": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
       "packagesPath": "C:\\Users\\rojas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Api\\obj\\",
+      "outputPath": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5903,11 +5923,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
-              "projectPath": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
+            "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj": {
+              "projectPath": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj"
             },
-            "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj"
+            "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+              "projectPath": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
+            },
+            "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj"
             }
           }
         }
@@ -5950,7 +5973,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

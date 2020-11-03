@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
       "projectName": "AnimalSpawn.Domain",
-      "projectPath": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+      "projectPath": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
       "packagesPath": "C:\\Users\\rojas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rojas\\Desktop\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
+      "outputPath": "C:\\Users\\rojas\\Documents\\GitHub\\4C_GRB_PA2P\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
